@@ -7,7 +7,7 @@ var invisibleGround,invisibleGround2 ;
     things1 = loadAnimation("bomb.png");
     things2 = loadAnimation("coin.png");
     things3 = loadAnimation("energyDrink.png");
-    player= loadAnimation("runner-1.png","runner-2.png");
+    player= loadAnimation("Runner-1.png","Runner-2.png");
     things5 = loadAnimation("power.png");
 
     paths = loadImage("path.png");
@@ -36,7 +36,7 @@ var invisibleGround,invisibleGround2 ;
 
 
   player= createSprite(200,300);
-  player.addAnimation("runner-1.png","runner-2.png",player);
+  player.addAnimation("Runner-1.png","Runner-2.png",player);
   player.scale = 0.10;
 
   power = createSprite(100,50);
